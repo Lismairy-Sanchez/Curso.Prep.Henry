@@ -73,8 +73,10 @@ function tienenMismaLongitud(str1, str2) {
   if (str1.length == str2.length){
   return true;
   }
+  elsea
+  {
   return false;
-
+  }
 }
 
 function menosQueNoventa(num) {
@@ -118,10 +120,10 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 ==0 ){
-    return false;
+  if (num % 2 ==1 ){
+    return true;
   }
-  return true;
+  return false;
 }
 
 function elevarAlCuadrado(num) {
